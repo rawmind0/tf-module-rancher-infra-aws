@@ -142,7 +142,7 @@ module "rancher_infra" {
   aws_region = "eu-west-3"
   prefix = "rancher-ha"
   # deploy_lb = true  # Deploy NLB pointing to nodes with worker role
-  # route53_zone = "fe.rancher.space"  # Use route53 zone to add registry
+  # route53_zone = "my.org"  # Use route53 zone to add registry
   # route53_name = "rancher-ha"        
 }
 ```
